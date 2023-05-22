@@ -345,7 +345,7 @@ var keyArcanosMayores = Object.keys(arcanosMayores);
 // console.log(keyArcanosMayores);
 //
 
-var indiceKeyMayorAleatorio = Math.floor(Math.random() * 22); // keyArcanosMayores.length)
+var indiceKeyMayorAleatorio = Math.floor(Math.random(Date.now) * 22); // keyArcanosMayores.length)
 var indiceKeyMayorAleatorio2 = Math.floor(Math.random(Date.now) * 22); // keyArcanosMayores.length)
 var indiceKeyMayorAleatorio3 = Math.floor(Math.random(Date.now) * 22); // keyArcanosMayores.length)
 
